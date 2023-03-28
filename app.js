@@ -1,0 +1,41 @@
+const express = require("express");
+const bodyParser = require("body-parser");
+const mongoose = require("mongoose");
+require("dotenv").config();
+
+const searchDayRoutes = require("./routes/searchDay");
+const holidayRoutes = require("./routes/holiday");
+
+const app = express();
+
+app.use(bodyParser.json()); // application/json
+app.use(bodyParser.urlencoded({ extended: true }));
+
+app.use((req, res, next) => {
+  res.setHeader("Access-Control-Allow-Origin", "*");
+  res.setHeader(
+    "Access-Control-Allow-Methods",
+    "GET, POST, PUT, PATCH, DELETE"
+  );
+  res.setHeader("Access-Control-Allow-Headers", "Content-Type, Authorization");
+  next();
+});
+
+app.use("/day", searchDayRoutes);
+app.use("/holiday", holidayRoutes);
+
+app.use((error, req, res, next) => {
+  console.log(error);
+  const status = error.statusCode || 500;
+  const message = error.message;
+  const data = error.data;
+  res.status(status).json({ message: message, data: data });
+});
+
+mongoose
+  .connect(process.env.MONGODB)
+  .then((result) => {
+    app.listen(process.env.PORT);
+    console.log("server started port: " + process.env.PORT);
+  })
+  .catch((err) => console.log(err));
