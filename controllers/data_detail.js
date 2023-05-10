@@ -98,8 +98,8 @@ exports.addDataDetail = async (req, res, next) => {
   };
 
   exports.getListByPeaCode = async (req, res, next) => {
-    console.log(req.query)
-    const peacode = req.body.peacode;
+    console.log(req.query.peacode)
+    const peacode = req.query.peacode;
   
     try {
       const getListByPeaCode = await DataDetailModel.find({
