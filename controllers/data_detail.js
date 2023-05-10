@@ -30,54 +30,54 @@ exports.addDataDetail = async (req, res, next) => {
         },
         unit_use:{
             kwh_p:{
-                unit_read_after:req.body.unit_read_after,
-                unit_read_before:req.body.unit_read_before,
-                multiplier:req.body.multiplier,
-                unit_normal:req.body.unit_normal,
-                date_normal:req.body.date_normal,
-                avg_date:req.body.avg_date,
-                date_brok:req.body.data_broken,
-                unit_avg_to_sap:req.body.unit_avg_to_sap
+                unit_read_after_kwh_p:req.body.unit_read_after_kwh_p,
+                unit_read_before_kwh_p:req.body.unit_read_before_kwh_p,
+                multiplier_kwh_p:req.body.multiplier_kwh_p,
+                unit_normal_kwh_p:req.body.unit_normal_kwh_p,
+                date_normal_kwh_p:req.body.date_normal_kwh_p,
+                avg_date_kwh_p:req.body.avg_date_kwh_p,
+                date_brok_kwh_p:req.body.data_broken,
+                unit_avg_to_sap_kwh_p:req.body.unit_avg_to_sap_kwh_p
             },
             kwh_op:{
-                unit_read_after:req.body.unit_read_after,
-                unit_read_before:req.body.unit_read_before,
-                multiplier:req.body.multiplier,
-                unit_normal:req.body.unit_normal,
-                date_normal:req.body.date_normal,
-                avg_date:req.body.avg_date,
-                date_brok:req.body.data_broken,
-                unit_avg_to_sap:req.body.unit_avg_to_sap
+                unit_read_after_kwh_op:req.body.unit_read_after_kwh_op,
+                unit_read_before_kwh_op:req.body.unit_read_before_kwh_op,
+                multiplier_kwh_op:req.body.multiplier_kwh_op,
+                unit_normal_kwh_op:req.body.unit_normal_kwh_op,
+                date_normal_kwh_op:req.body.date_normal_kwh_op,
+                avg_date_kwh_op:req.body.avg_date_kwh_op,
+                date_brok_kwh_op:req.body.data_broken_kwh_op,
+                unit_avg_to_sap_kwh_op:req.body.unit_avg_to_sap_kwh_op
             },
             kwh_h:{
-                unit_read_after:req.body.unit_read_after,
-                unit_read_before:req.body.unit_read_before,
-                multiplier:req.body.multiplier,
-                unit_normal:req.body.unit_normal,
-                date_normal:req.body.date_normal,
-                avg_date:req.body.avg_date,
-                date_brok:req.body.data_broken,
-                unit_avg_to_sap:req.body.unit_avg_to_sap
+                unit_read_after_kwh_h:req.body.unit_read_after_kwh_h,
+                unit_read_before_kwh_h:req.body.unit_read_before_kwh_h,
+                multiplier_kwh_h:req.body.multiplier_kwh_h,
+                unit_normal_kwh_h:req.body.unit_normal_kwh_h,
+                date_normal_kwh_h:req.body.date_normal_kwh_h,
+                avg_date_kwh_h:req.body.avg_date_kwh_h,
+                date_brok_kwh_h:req.body.data_broken_kwh_h,
+                unit_avg_to_sap_kwh_h:req.body.unit_avg_to_sap_kwh_h
             },
         },
         kwh_unit:{
             kwh_p:{
-                unit_read_after:req.body.unit_read_after,
-                unit_read_before:req.body.unit_read_before,
-                multiplier:req.body.multiplier,
-                kwh_normal:req.body.kwh_normalkwh_normal       
+                unit_read_after_unit_kwh_p:req.body.unit_read_after_unit_kwh_p,
+                unit_read_before_unit_kwh_p:req.body.unit_read_before_unit_kwh_p,
+                multiplier_unit_kwh_p:req.body.multiplier_unit_kwh_p,
+                kwh_normal_unit_kwh_p:req.body.kwh_normal_unit_kwh_p      
              },
              kwh_op:{
-                unit_read_after:req.body.unit_read_after,
-                unit_read_before:req.body.unit_read_before,
-                multiplier:req.body.multiplier,
-                kwh_normal:req.body.kwh_normalkwh_normal       
+                unit_read_after_unit_kwh_op:req.body.unit_read_after_unit_kwh_op,
+                unit_read_before_unit_kwh_op:req.body.unit_read_before_unit_kwh_op,
+                multiplier_unit_kwh_op:req.body.multiplier_unit_kwh_op,
+                kwh_normal_unit_kwh_op:req.body.kwh_normal_unit_kwh_op       
              },
              kwh_h:{
-                unit_read_after:req.body.unit_read_after,
-                unit_read_before:req.body.unit_read_before,
-                multiplier:req.body.multiplier,
-                kwh_normal:req.body.kwh_normalkwh_normal       
+                unit_read_after_unit_kwh_h:req.body.unit_read_after_unit_kwh_h,
+                unit_read_before_unit_kwh_h:req.body.unit_read_before_unit_kwh_h,
+                multiplier_unit_kwh_h:req.body.multiplier_unit_kwh_h,
+                kwh_normal_unit_kwh_h:req.body.kwh_normal_unit_kwh_h    
              },
              
         },
@@ -90,6 +90,28 @@ exports.addDataDetail = async (req, res, next) => {
         message: "success",
         node: result,
       });
+    } catch (err) {
+      res.json({
+        message: err,
+      });
+    }
+  };
+
+  exports.getListByPeaCode = async (req, res, next) => {
+    console.log(req.query)
+    const peacode = req.body.peacode;
+  
+    try {
+      const getListByPeaCode = await DataDetailModel.find({
+        peacode: peacode,
+      });
+      // res.status(200).json({
+      //   //   message: "success",
+      //   //   data: getHoliday,
+  
+      //   getHoliday,
+      // });
+      res.send(getListByPeaCode);
     } catch (err) {
       res.json({
         message: err,
