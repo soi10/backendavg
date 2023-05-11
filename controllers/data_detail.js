@@ -36,7 +36,7 @@ exports.addDataDetail = async (req, res, next) => {
                 unit_normal_kwh_p:req.body.unit_normal_kwh_p,
                 date_normal_kwh_p:req.body.date_normal_kwh_p,
                 avg_date_kwh_p:req.body.avg_date_kwh_p,
-                date_brok_kwh_p:req.body.data_broken,
+                date_brok_kwh_p:req.body.date_brok_kwh_p,
                 unit_avg_to_sap_kwh_p:req.body.unit_avg_to_sap_kwh_p
             },
             kwh_op:{
@@ -46,7 +46,7 @@ exports.addDataDetail = async (req, res, next) => {
                 unit_normal_kwh_op:req.body.unit_normal_kwh_op,
                 date_normal_kwh_op:req.body.date_normal_kwh_op,
                 avg_date_kwh_op:req.body.avg_date_kwh_op,
-                date_brok_kwh_op:req.body.data_broken_kwh_op,
+                date_brok_kwh_op:req.body.date_brok_kwh_op,
                 unit_avg_to_sap_kwh_op:req.body.unit_avg_to_sap_kwh_op
             },
             kwh_h:{
@@ -56,7 +56,7 @@ exports.addDataDetail = async (req, res, next) => {
                 unit_normal_kwh_h:req.body.unit_normal_kwh_h,
                 date_normal_kwh_h:req.body.date_normal_kwh_h,
                 avg_date_kwh_h:req.body.avg_date_kwh_h,
-                date_brok_kwh_h:req.body.data_broken_kwh_h,
+                date_brok_kwh_h:req.body.date_brok_kwh_h,
                 unit_avg_to_sap_kwh_h:req.body.unit_avg_to_sap_kwh_h
             },
         },
@@ -112,6 +112,29 @@ exports.addDataDetail = async (req, res, next) => {
       //   getHoliday,
       // });
       res.send(getListByPeaCode);
+    } catch (err) {
+      res.json({
+        message: err,
+      });
+    }
+  };
+
+  exports.getById = async (req, res, next) => {
+    const id = req.query.id;
+    console.log(req.query)
+  
+    try {
+      const getById = await DataDetailModel.find({
+        _id: id,
+      });
+      // res.status(200).json({
+      //   //   message: "success",
+      //   //   data: getHoliday,
+  
+      //   getHoliday,
+      // });
+      res.send(getById);
+      console.log(getById)
     } catch (err) {
       res.json({
         message: err,
