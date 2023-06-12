@@ -204,6 +204,12 @@ const dataDetail = new Schema(
                 }
             }
         },
+        sum_normal_final: {
+            type: String
+        },
+        sum_to_sap_final: {
+            type: String
+        },
         user: {
             type: String
         },
