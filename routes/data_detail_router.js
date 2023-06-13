@@ -9,5 +9,6 @@ routerData.get("/databypeacode", DataDetail.getListByPeaCode)
 routerData.get("/id", DataDetail.getById)
 routerData.delete("/delete", DataDetail.DeleteId)
 routerData.put('/update', DataDetail.updateById)
+routerData.get('/all', DataDetail.getAll)
 
 module.exports = routerData;

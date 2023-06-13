@@ -240,12 +240,6 @@ exports.getById = async (req, res, next) => {
     const getById = await DataDetailModel.find({
       _id: id,
     });
-    // res.status(200).json({
-    //   //   message: "success",
-    //   //   data: getHoliday,
-
-    //   getHoliday,
-    // });
     res.send(getById);
     //console.log(getById)
   } catch (err) {
@@ -270,6 +264,18 @@ exports.DeleteId = async (req, res, next) => {
     //   getHoliday,
     // });
     res.send(DeleteId);
+    //console.log(getById)
+  } catch (err) {
+    res.json({
+      message: err,
+    });
+  }
+};
+
+exports.getAll = async (req, res, next) => {
+  try {
+    const getById = await DataDetailModel.find({}).select("billing_Cycle sum_to_sap_final")
+    res.send(getById);
     //console.log(getById)
   } catch (err) {
     res.json({
