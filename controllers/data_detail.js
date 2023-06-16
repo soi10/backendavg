@@ -234,7 +234,7 @@ exports.updateById = async (req, res, next) => {
 
 exports.getById = async (req, res, next) => {
   const id = req.query.id;
-  // console.log(req.query)
+  //console.log(req.query)
 
   try {
     const getById = await DataDetailModel.find({
