@@ -5,11 +5,12 @@ require("dotenv").config();
 
 const searchDayRoutes = require("./routes/searchDay");
 const holidayRoutes = require("./routes/holiday");
-const routesUploadExcel = require("./routes/office_routes")
-const login_idm = require("./routes/login_routes")
+const routesUploadExcel = require("./routes/office_routes");
+const login_idm = require("./routes/login_routes");
 const routesUploadExcelRate = require("./routes/rate_routes");
 const data_detail = require("./routes/data_detail_router");
-const routerExcellHoliday = require("./routes/excel_upload_holiday_router")
+const routerExcellHoliday = require("./routes/excel_upload_holiday_router");
+const adminRoutes = require("./routes/admin");
 const app = express();
 
 app.use(bodyParser.json()); // application/json
@@ -27,11 +28,12 @@ app.use((req, res, next) => {
 
 app.use("/day", searchDayRoutes);
 app.use("/holiday", holidayRoutes);
-app.use('/uploads',routesUploadExcel)
-app.use('/login',login_idm)
-app.use('/uploadrate',routesUploadExcelRate)
-app.use('/datadetail',data_detail)
-app.use('/excellholiday',routerExcellHoliday)
+app.use("/uploads", routesUploadExcel);
+app.use("/login", login_idm);
+app.use("/uploadrate", routesUploadExcelRate);
+app.use("/datadetail", data_detail);
+app.use("/excellholiday", routerExcellHoliday);
+app.use("/admin", adminRoutes);
 app.use((error, req, res, next) => {
   console.log(error);
   const status = error.statusCode || 500;
