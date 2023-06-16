@@ -15,6 +15,7 @@ exports.addDataDetail = async (req, res, next) => {
     year: req.body.year,
     cause: req.body.cause,
     in_cause: req.body.in_cause,
+    case_tranloss: req.body.case_tranloss,
     data_broken: {
       normal_date_start: req.body.normal_date_start,
       normal_date_end: req.body.normal_date_end,
@@ -140,7 +141,6 @@ exports.updateById = async (req, res, next) => {
     // billing_Cycle: req.body.billing_Cycle,
     // year: req.body.year,
     // cause: req.body.cause,
-    in_cause: req.body.in_cause,
     data_broken: {
       normal_date_start: req.body.normal_date_start,
       normal_date_end: req.body.normal_date_end,

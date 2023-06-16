@@ -39,6 +39,9 @@ const dataDetail = new Schema(
         in_cause: {
             type: String
         },
+        case_tranloss: {
+            type: String
+        },
         data_broken: {
             normal_date_start: {
                 type: String
