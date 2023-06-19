@@ -1,4 +1,4 @@
-const DataDetailModel = require("../models/data_detail")
+const DataDetailModel = require("../models/data_detail");
 
 exports.addDataDetail = async (req, res, next) => {
   //console.log(req.body)
@@ -29,7 +29,7 @@ exports.addDataDetail = async (req, res, next) => {
       op_brok: req.body.op_brok,
       h_brok: req.body.h_brok,
       sum_brok: req.body.sum_brok,
-      sum_all: req.body.sum_all
+      sum_all: req.body.sum_all,
     },
     unit_use: {
       kwh_p: {
@@ -40,7 +40,7 @@ exports.addDataDetail = async (req, res, next) => {
         date_normal_kwh_p: req.body.date_normal_kwh_p,
         avg_date_kwh_p: req.body.avg_date_kwh_p,
         date_brok_kwh_p: req.body.date_brok_kwh_p,
-        unit_avg_to_sap_kwh_p: req.body.unit_avg_to_sap_kwh_p
+        unit_avg_to_sap_kwh_p: req.body.unit_avg_to_sap_kwh_p,
       },
       kwh_op: {
         unit_read_after_kwh_op: req.body.unit_read_after_kwh_op,
@@ -50,7 +50,7 @@ exports.addDataDetail = async (req, res, next) => {
         date_normal_kwh_op: req.body.date_normal_kwh_op,
         avg_date_kwh_op: req.body.avg_date_kwh_op,
         date_brok_kwh_op: req.body.date_brok_kwh_op,
-        unit_avg_to_sap_kwh_op: req.body.unit_avg_to_sap_kwh_op
+        unit_avg_to_sap_kwh_op: req.body.unit_avg_to_sap_kwh_op,
       },
       kwh_h: {
         unit_read_after_kwh_h: req.body.unit_read_after_kwh_h,
@@ -60,7 +60,7 @@ exports.addDataDetail = async (req, res, next) => {
         date_normal_kwh_h: req.body.date_normal_kwh_h,
         avg_date_kwh_h: req.body.avg_date_kwh_h,
         date_brok_kwh_h: req.body.date_brok_kwh_h,
-        unit_avg_to_sap_kwh_h: req.body.unit_avg_to_sap_kwh_h
+        unit_avg_to_sap_kwh_h: req.body.unit_avg_to_sap_kwh_h,
       },
     },
     kwh_unit: {
@@ -68,21 +68,20 @@ exports.addDataDetail = async (req, res, next) => {
         unit_read_after_unit_kwh_p: req.body.unit_read_after_unit_kwh_p,
         unit_read_before_unit_kwh_p: req.body.unit_read_before_unit_kwh_p,
         multiplier_unit_kwh_p: req.body.multiplier_unit_kwh_p,
-        kwh_normal_unit_kwh_p: req.body.kwh_normal_unit_kwh_p
+        kwh_normal_unit_kwh_p: req.body.kwh_normal_unit_kwh_p,
       },
       kwh_op: {
         unit_read_after_unit_kwh_op: req.body.unit_read_after_unit_kwh_op,
         unit_read_before_unit_kwh_op: req.body.unit_read_before_unit_kwh_op,
         multiplier_unit_kwh_op: req.body.multiplier_unit_kwh_op,
-        kwh_normal_unit_kwh_op: req.body.kwh_normal_unit_kwh_op
+        kwh_normal_unit_kwh_op: req.body.kwh_normal_unit_kwh_op,
       },
       kwh_h: {
         unit_read_after_unit_kwh_h: req.body.unit_read_after_unit_kwh_h,
         unit_read_before_unit_kwh_h: req.body.unit_read_before_unit_kwh_h,
         multiplier_unit_kwh_h: req.body.multiplier_unit_kwh_h,
-        kwh_normal_unit_kwh_h: req.body.kwh_normal_unit_kwh_h
+        kwh_normal_unit_kwh_h: req.body.kwh_normal_unit_kwh_h,
       },
-
     },
     sum_normal_final: req.body.sum_normal_final,
     sum_to_sap_final: req.body.sum_to_sap_final,
@@ -104,7 +103,7 @@ exports.addDataDetail = async (req, res, next) => {
 };
 
 exports.getListByPeaCode = async (req, res, next) => {
-  console.log(req.query.peacode)
+  console.log(req.query.peacode);
   const peacode = req.query.peacode;
 
   try {
@@ -127,8 +126,8 @@ exports.getListByPeaCode = async (req, res, next) => {
 
 exports.updateById = async (req, res, next) => {
   const id = req.query.id;
-  console.log(req.body)
-  const filter = { _id: req.body.id }
+  console.log(req.body);
+  const filter = { _id: req.body.id };
   const update = {
     // peacode: req.body.peacode,
     // office_name: req.body.office_name,
@@ -154,7 +153,7 @@ exports.updateById = async (req, res, next) => {
       op_brok: req.body.op_brok,
       h_brok: req.body.h_brok,
       sum_brok: req.body.sum_brok,
-      sum_all: req.body.sum_all
+      sum_all: req.body.sum_all,
     },
     unit_use: {
       kwh_p: {
@@ -165,7 +164,7 @@ exports.updateById = async (req, res, next) => {
         date_normal_kwh_p: req.body.date_normal_kwh_p,
         avg_date_kwh_p: req.body.avg_date_kwh_p,
         date_brok_kwh_p: req.body.date_brok_kwh_p,
-        unit_avg_to_sap_kwh_p: req.body.unit_avg_to_sap_kwh_p
+        unit_avg_to_sap_kwh_p: req.body.unit_avg_to_sap_kwh_p,
       },
       kwh_op: {
         unit_read_after_kwh_op: req.body.unit_read_after_kwh_op,
@@ -175,7 +174,7 @@ exports.updateById = async (req, res, next) => {
         date_normal_kwh_op: req.body.date_normal_kwh_op,
         avg_date_kwh_op: req.body.avg_date_kwh_op,
         date_brok_kwh_op: req.body.date_brok_kwh_op,
-        unit_avg_to_sap_kwh_op: req.body.unit_avg_to_sap_kwh_op
+        unit_avg_to_sap_kwh_op: req.body.unit_avg_to_sap_kwh_op,
       },
       kwh_h: {
         unit_read_after_kwh_h: req.body.unit_read_after_kwh_h,
@@ -185,7 +184,7 @@ exports.updateById = async (req, res, next) => {
         date_normal_kwh_h: req.body.date_normal_kwh_h,
         avg_date_kwh_h: req.body.avg_date_kwh_h,
         date_brok_kwh_h: req.body.date_brok_kwh_h,
-        unit_avg_to_sap_kwh_h: req.body.unit_avg_to_sap_kwh_h
+        unit_avg_to_sap_kwh_h: req.body.unit_avg_to_sap_kwh_h,
       },
     },
     kwh_unit: {
@@ -193,32 +192,30 @@ exports.updateById = async (req, res, next) => {
         unit_read_after_unit_kwh_p: req.body.unit_read_after_unit_kwh_p,
         unit_read_before_unit_kwh_p: req.body.unit_read_before_unit_kwh_p,
         multiplier_unit_kwh_p: req.body.multiplier_unit_kwh_p,
-        kwh_normal_unit_kwh_p: req.body.kwh_normal_unit_kwh_p
+        kwh_normal_unit_kwh_p: req.body.kwh_normal_unit_kwh_p,
       },
       kwh_op: {
         unit_read_after_unit_kwh_op: req.body.unit_read_after_unit_kwh_op,
         unit_read_before_unit_kwh_op: req.body.unit_read_before_unit_kwh_op,
         multiplier_unit_kwh_op: req.body.multiplier_unit_kwh_op,
-        kwh_normal_unit_kwh_op: req.body.kwh_normal_unit_kwh_op
+        kwh_normal_unit_kwh_op: req.body.kwh_normal_unit_kwh_op,
       },
       kwh_h: {
         unit_read_after_unit_kwh_h: req.body.unit_read_after_unit_kwh_h,
         unit_read_before_unit_kwh_h: req.body.unit_read_before_unit_kwh_h,
         multiplier_unit_kwh_h: req.body.multiplier_unit_kwh_h,
-        kwh_normal_unit_kwh_h: req.body.kwh_normal_unit_kwh_h
+        kwh_normal_unit_kwh_h: req.body.kwh_normal_unit_kwh_h,
       },
-
     },
     sum_normal_final: req.body.sum_normal_final,
     sum_to_sap_final: req.body.sum_to_sap_final,
     user: req.body.user,
     comment: req.body.comment,
-
-  }
+  };
 
   try {
     const updateById = await DataDetailModel.findOneAndUpdate(filter, update);
-    updateById = await DataDetailModel.findOne(filter)
+    updateById = await DataDetailModel.findOne(filter);
     res.status(200).json({
       message: "success",
       data: updateById,
@@ -251,7 +248,7 @@ exports.getById = async (req, res, next) => {
 
 exports.DeleteId = async (req, res, next) => {
   const id = req.body.id;
-  console.log(req.body)
+  console.log(req.body);
 
   try {
     const DeleteId = await DataDetailModel.findOneAndDelete({
@@ -273,10 +270,68 @@ exports.DeleteId = async (req, res, next) => {
 };
 
 exports.getAll = async (req, res, next) => {
+  const yearChart = req.body.yearChart;
+  const peacode = req.body.peacode;
   try {
-    const getById = await DataDetailModel.find({}).select("billing_Cycle sum_to_sap_final")
+    const getById = await DataDetailModel.find({
+      year: yearChart,
+      peacode: peacode,
+    }).select("billing_Cycle sum_to_sap_final");
     res.send(getById);
     //console.log(getById)
+  } catch (err) {
+    res.json({
+      message: err,
+    });
+  }
+};
+
+exports.countDetail = async (req, res, next) => {
+  const yearChart = req.body.yearChart;
+  const peacode = req.body.peacode;
+  try {
+    const getById = await DataDetailModel.find({
+      year: yearChart,
+      peacode: peacode,
+    }).select("type_customer sum_to_sap_final");
+
+    // Calculate the sum of sum_to_sap_final and count the type_customer
+    const result = getById.reduce((acc, data) => {
+      const { type_customer, sum_to_sap_final } = data;
+      if (acc[type_customer]) {
+        acc[type_customer].sum += sum_to_sap_final;
+        acc[type_customer].count++;
+      } else {
+        acc[type_customer] = {
+          sum: sum_to_sap_final,
+          count: 1,
+        };
+      }
+      return acc;
+    }, {});
+
+    // Translate the result keys to English and include the count of type_customer
+    const translatedResult = {};
+    Object.keys(result).forEach((key) => {
+      if (key === "ผู้ใช้ไฟรายใหญ่") {
+        translatedResult["major"] = {
+          sum: result[key].sum,
+          count: result[key].count,
+        };
+      } else if (key === "ผู้ใช้ไฟรายย่อย") {
+        translatedResult["minor"] = {
+          sum: result[key].sum,
+          count: result[key].count,
+        };
+      } else {
+        translatedResult[key] = {
+          sum: result[key].sum,
+          count: result[key].count,
+        };
+      }
+    });
+
+    res.send(translatedResult);
   } catch (err) {
     res.json({
       message: err,
