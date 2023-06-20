@@ -298,12 +298,13 @@ exports.countDetail = async (req, res, next) => {
     // Calculate the sum of sum_to_sap_final and count the type_customer
     const result = getById.reduce((acc, data) => {
       const { type_customer, sum_to_sap_final } = data;
+      const sum = parseFloat(sum_to_sap_final); // Convert string to float
       if (acc[type_customer]) {
-        acc[type_customer].sum += sum_to_sap_final;
+        acc[type_customer].sum += sum;
         acc[type_customer].count++;
       } else {
         acc[type_customer] = {
-          sum: sum_to_sap_final,
+          sum: sum,
           count: 1,
         };
       }
