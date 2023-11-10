@@ -1,0 +1,1441 @@
+[{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0ae"
+  },
+  "office": "ETSM",
+  "office_head": "EUBN",
+  "office_branch": "EUBN",
+  "office_trsg": "E01108",
+  "office_trsg_branch": "E011",
+  "office_trsg_head": "E01",
+  "office_name": "กฟย.ตาลสุม",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0ad"
+  },
+  "office": "EUBN",
+  "office_head": "EUBN",
+  "office_branch": "EUBN",
+  "office_trsg": "E01101",
+  "office_trsg_branch": "E011",
+  "office_trsg_head": "E01",
+  "office_name": "กฟจ.อุบลราชธานี",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0b1"
+  },
+  "office": "EBNK",
+  "office_head": "EUBN",
+  "office_branch": "EKNI",
+  "office_trsg": "E01602",
+  "office_trsg_branch": "E016",
+  "office_trsg_head": "E01",
+  "office_name": "กฟย.บ้านกอก",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0b2"
+  },
+  "office": "ESJK",
+  "office_head": "ESJK",
+  "office_branch": "ESJK",
+  "office_trsg": "E02101",
+  "office_trsg_branch": "E021",
+  "office_trsg_head": "E02",
+  "office_name": "กฟจ.ศรีสะเกษ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0b3"
+  },
+  "office": "EWHN",
+  "office_head": "ESJK",
+  "office_branch": "ESJK",
+  "office_trsg": "E02103",
+  "office_trsg_branch": "E021",
+  "office_trsg_head": "E02",
+  "office_name": "กฟย.วังหิน",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0af"
+  },
+  "office": "EMSS",
+  "office_head": "EUBN",
+  "office_branch": "EMSS",
+  "office_trsg": "E01501",
+  "office_trsg_branch": "E015",
+  "office_trsg_head": "E01",
+  "office_name": "กฟส.ม่วงสามสิบ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0b0"
+  },
+  "office": "EKNI",
+  "office_head": "EUBN",
+  "office_branch": "EKNI",
+  "office_trsg": "E01601",
+  "office_trsg_branch": "E016",
+  "office_trsg_head": "E01",
+  "office_name": "กฟส.เขื่องใน",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0b6"
+  },
+  "office": "EYCN",
+  "office_head": "ESJK",
+  "office_branch": "ESJK",
+  "office_trsg": "E02117",
+  "office_trsg_branch": "E021",
+  "office_trsg_head": "E02",
+  "office_name": "กฟย.ยางชุมน้อย",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0b7"
+  },
+  "office": "EUTP",
+  "office_head": "ESJK",
+  "office_branch": "EUTP",
+  "office_trsg": "E02201",
+  "office_trsg_branch": "E022",
+  "office_trsg_head": "E02",
+  "office_name": "กฟส.อุทุมพรพิสัย",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0b8"
+  },
+  "office": "EBBN",
+  "office_head": "ESJK",
+  "office_branch": "EUTP",
+  "office_trsg": "E02204",
+  "office_trsg_branch": "E022",
+  "office_trsg_head": "E02",
+  "office_name": "กฟย.บึงบูรพ์",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0b9"
+  },
+  "office": "EHTT",
+  "office_head": "ESJK",
+  "office_branch": "EUTP",
+  "office_trsg": "E02205",
+  "office_trsg_branch": "E022",
+  "office_trsg_head": "E02",
+  "office_name": "กฟย.ห้วยทับทัน",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0ba"
+  },
+  "office": "EKUK",
+  "office_head": "ESJK",
+  "office_branch": "EKUK",
+  "office_trsg": "E02301",
+  "office_trsg_branch": "E023",
+  "office_trsg_head": "E02",
+  "office_name": "กฟส.ขุขันธ์",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0bb"
+  },
+  "office": "EPSG",
+  "office_head": "ESJK",
+  "office_branch": "EKUK",
+  "office_trsg": "E02302",
+  "office_trsg_branch": "E023",
+  "office_trsg_head": "E02",
+  "office_name": "กฟย.ภูสิงห์",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0bc"
+  },
+  "office": "EPKU",
+  "office_head": "ESJK",
+  "office_branch": "EKUK",
+  "office_trsg": "E02304",
+  "office_trsg_branch": "E023",
+  "office_trsg_head": "E02",
+  "office_name": "กฟย.ปรางค์กู่",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0bd"
+  },
+  "office": "ELSS",
+  "office_head": "ESJK",
+  "office_branch": "ELSS",
+  "office_trsg": "E02401",
+  "office_trsg_branch": "E024",
+  "office_trsg_head": "E02",
+  "office_name": "กฟส.ราษีไศล",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0b4"
+  },
+  "office": "ENKL",
+  "office_head": "ESJK",
+  "office_branch": "ESJK",
+  "office_trsg": "E02105",
+  "office_trsg_branch": "E021",
+  "office_trsg_head": "E02",
+  "office_name": "กฟย.น้ำเกลี้ยง",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0b5"
+  },
+  "office": "EPYU",
+  "office_head": "ESJK",
+  "office_branch": "ESJK",
+  "office_trsg": "E02114",
+  "office_trsg_branch": "E021",
+  "office_trsg_head": "E02",
+  "office_name": "กฟย.พยุห์",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0c0"
+  },
+  "office": "EKCM",
+  "office_head": "EYST",
+  "office_branch": "EYST",
+  "office_trsg": "E03102",
+  "office_trsg_branch": "E031",
+  "office_trsg_head": "E03",
+  "office_name": "กฟย.กุดชุม",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0c1"
+  },
+  "office": "EKKK",
+  "office_head": "EYST",
+  "office_branch": "EYST",
+  "office_trsg": "E03103",
+  "office_trsg_branch": "E031",
+  "office_trsg_head": "E03",
+  "office_name": "กฟย.คำเขื่อนแก้ว",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0c2"
+  },
+  "office": "EPTI",
+  "office_head": "EYST",
+  "office_branch": "EYST",
+  "office_trsg": "E03105",
+  "office_trsg_branch": "E031",
+  "office_trsg_head": "E03",
+  "office_name": "กฟย.ป่าติ้ว",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0c3"
+  },
+  "office": "ESMN",
+  "office_head": "EYST",
+  "office_branch": "EYST",
+  "office_trsg": "E03107",
+  "office_trsg_branch": "E031",
+  "office_trsg_head": "E03",
+  "office_name": "กฟย.ทรายมูล",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0c4"
+  },
+  "office": "ETCH",
+  "office_head": "EYST",
+  "office_branch": "EYST",
+  "office_trsg": "E03108",
+  "office_trsg_branch": "E031",
+  "office_trsg_head": "E03",
+  "office_name": "กฟย.ไทยเจริญ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0c5"
+  },
+  "office": "EPNP",
+  "office_head": "EYST",
+  "office_branch": "EPNP",
+  "office_trsg": "E03201",
+  "office_trsg_branch": "E032",
+  "office_trsg_head": "E03",
+  "office_name": "กฟส.พนมไพร",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0c6"
+  },
+  "office": "ENHI",
+  "office_head": "EYST",
+  "office_branch": "EPNP",
+  "office_trsg": "E03206",
+  "office_trsg_branch": "E032",
+  "office_trsg_head": "E03",
+  "office_name": "กฟย.หนองฮี",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0c7"
+  },
+  "office": "EMCC",
+  "office_head": "EYST",
+  "office_branch": "EMCC",
+  "office_trsg": "E03301",
+  "office_trsg_branch": "E033",
+  "office_trsg_head": "E03",
+  "office_name": "กฟส.มหาชนะชัย",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0c8"
+  },
+  "office": "EKWG",
+  "office_head": "EYST",
+  "office_branch": "EMCC",
+  "office_trsg": "E03302",
+  "office_trsg_branch": "E033",
+  "office_trsg_head": "E03",
+  "office_name": "กฟย.ค้อวัง",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0c9"
+  },
+  "office": "EMHK",
+  "office_head": "EMHK",
+  "office_branch": "EMHK",
+  "office_trsg": "E04101",
+  "office_trsg_branch": "E041",
+  "office_trsg_head": "E04",
+  "office_name": "กฟจ.มหาสารคาม",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0ca"
+  },
+  "office": "EKTW",
+  "office_head": "EMHK",
+  "office_branch": "EMHK",
+  "office_trsg": "E04110",
+  "office_trsg_branch": "E041",
+  "office_trsg_head": "E04",
+  "office_name": "กฟย.กันทรวิชัย",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0cb"
+  },
+  "office": "EKDM",
+  "office_head": "EMHK",
+  "office_branch": "EMHK",
+  "office_trsg": "E04111",
+  "office_trsg_branch": "E041",
+  "office_trsg_head": "E04",
+  "office_name": "กฟย.แกดำ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0cc"
+  },
+  "office": "EPYK",
+  "office_head": "EMHK",
+  "office_branch": "EPYK",
+  "office_trsg": "E04201",
+  "office_trsg_branch": "E042",
+  "office_trsg_head": "E04",
+  "office_name": "กฟส.พยัคฆภูมิพิสัย",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0be"
+  },
+  "office": "EKTM",
+  "office_head": "ESJK",
+  "office_branch": "EKTM",
+  "office_trsg": "E02501",
+  "office_trsg_branch": "E025",
+  "office_trsg_head": "E02",
+  "office_name": "กฟส.กันทรารมย์",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0bf"
+  },
+  "office": "EYST",
+  "office_head": "EYST",
+  "office_branch": "EYST",
+  "office_trsg": "E03101",
+  "office_trsg_branch": "E031",
+  "office_trsg_head": "E03",
+  "office_name": "กฟจ.ยโสธร",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0cf"
+  },
+  "office": "EWPT",
+  "office_head": "EMHK",
+  "office_branch": "EWPT",
+  "office_trsg": "E04301",
+  "office_trsg_branch": "E043",
+  "office_trsg_head": "E04",
+  "office_name": "กฟส.วาปีปทุม",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0d0"
+  },
+  "office": "ENDN",
+  "office_head": "EMHK",
+  "office_branch": "EWPT",
+  "office_trsg": "E04307",
+  "office_trsg_branch": "E043",
+  "office_trsg_head": "E04",
+  "office_name": "กฟย.นาดูน",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0d1"
+  },
+  "office": "EKSP",
+  "office_head": "EMHK",
+  "office_branch": "EKSP",
+  "office_trsg": "E04401",
+  "office_trsg_branch": "E044",
+  "office_trsg_head": "E04",
+  "office_name": "กฟส.โกสุมพิสัย",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0d2"
+  },
+  "office": "EBRB",
+  "office_head": "EMHK",
+  "office_branch": "EBRB",
+  "office_trsg": "E04501",
+  "office_trsg_branch": "E045",
+  "office_trsg_head": "E04",
+  "office_name": "กฟส.บรบือ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0d3"
+  },
+  "office": "EKTR",
+  "office_head": "EMHK",
+  "office_branch": "EBRB",
+  "office_trsg": "E04502",
+  "office_trsg_branch": "E045",
+  "office_trsg_head": "E04",
+  "office_name": "กฟย.กุดรัง",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0d4"
+  },
+  "office": "ECYN",
+  "office_head": "EMHK",
+  "office_branch": "ECYN",
+  "office_trsg": "E04601",
+  "office_trsg_branch": "E046",
+  "office_trsg_head": "E04",
+  "office_name": "กฟส.เชียงยืน",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0d5"
+  },
+  "office": "ECCM",
+  "office_head": "EMHK",
+  "office_branch": "ECYN",
+  "office_trsg": "E04602",
+  "office_trsg_branch": "E046",
+  "office_trsg_head": "E04",
+  "office_name": "กฟย.ชื่นชม",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0d6"
+  },
+  "office": "EKLS",
+  "office_head": "EKLS",
+  "office_branch": "EKLS",
+  "office_trsg": "E05101",
+  "office_trsg_branch": "E051",
+  "office_trsg_head": "E05",
+  "office_name": "กฟจ.กาฬสินธุ์",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0d7"
+  },
+  "office": "EDCN",
+  "office_head": "EKLS",
+  "office_branch": "EKLS",
+  "office_trsg": "E05102",
+  "office_trsg_branch": "E051",
+  "office_trsg_head": "E05",
+  "office_name": "กฟย.ดอนจาน",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0d8"
+  },
+  "office": "EKLI",
+  "office_head": "EKLS",
+  "office_branch": "EKLS",
+  "office_trsg": "E05104",
+  "office_trsg_branch": "E051",
+  "office_trsg_head": "E05",
+  "office_name": "กฟย.กมลาไสย",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0d9"
+  },
+  "office": "ERKM",
+  "office_head": "EKLS",
+  "office_branch": "EKLS",
+  "office_trsg": "E05105",
+  "office_trsg_branch": "E051",
+  "office_trsg_head": "E05",
+  "office_name": "กฟย.ร่องคำ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0da"
+  },
+  "office": "ESHK",
+  "office_head": "EKLS",
+  "office_branch": "EKLS",
+  "office_trsg": "E05106",
+  "office_trsg_branch": "E051",
+  "office_trsg_head": "E05",
+  "office_name": "กฟย.สหัสขันธุ์",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0db"
+  },
+  "office": "ENKS",
+  "office_head": "EKLS",
+  "office_branch": "ENKS",
+  "office_trsg": "E05201",
+  "office_trsg_branch": "E052",
+  "office_trsg_head": "E05",
+  "office_name": "กฟส.หนองกุงศรี",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0dc"
+  },
+  "office": "EHMK",
+  "office_head": "EKLS",
+  "office_branch": "ENKS",
+  "office_trsg": "E05202",
+  "office_trsg_branch": "E052",
+  "office_trsg_head": "E05",
+  "office_name": "กฟย.ห้วยเม็ก",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0de"
+  },
+  "office": "EYTL",
+  "office_head": "EKLS",
+  "office_branch": "EYTL",
+  "office_trsg": "E05301",
+  "office_trsg_branch": "E053",
+  "office_trsg_head": "E05",
+  "office_name": "กฟส.ยางตลาด",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0dd"
+  },
+  "office": "ETKT",
+  "office_head": "EKLS",
+  "office_branch": "ENKS",
+  "office_trsg": "E05204",
+  "office_trsg_branch": "E052",
+  "office_trsg_head": "E05",
+  "office_name": "กฟย.ท่าคันโท",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0df"
+  },
+  "office": "EKCI",
+  "office_head": "EKLS",
+  "office_branch": "EYTL",
+  "office_trsg": "E05302",
+  "office_trsg_branch": "E053",
+  "office_trsg_head": "E05",
+  "office_name": "กฟย.ฆ้องชัย",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0e0"
+  },
+  "office": "EROE",
+  "office_head": "EROE",
+  "office_branch": "EROE",
+  "office_trsg": "E06101",
+  "office_trsg_branch": "E061",
+  "office_trsg_head": "E06",
+  "office_name": "กฟจ.ร้อยเอ็ด",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0cd"
+  },
+  "office": "ENCK",
+  "office_head": "EMHK",
+  "office_branch": "EPYK",
+  "office_trsg": "E04202",
+  "office_trsg_branch": "E042",
+  "office_trsg_head": "E04",
+  "office_name": "กฟย.นาเชือก",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0ce"
+  },
+  "office": "EYSR",
+  "office_head": "EMHK",
+  "office_branch": "EPYK",
+  "office_trsg": "E04203",
+  "office_trsg_branch": "E042",
+  "office_trsg_head": "E04",
+  "office_name": "กฟย.ยางสีสุราช",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0e3"
+  },
+  "office": "ETBR",
+  "office_head": "EROE",
+  "office_branch": "EROE",
+  "office_trsg": "E06106",
+  "office_trsg_branch": "E061",
+  "office_trsg_head": "E06",
+  "office_name": "กฟย.ธวัชบุรี",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0e4"
+  },
+  "office": "EMSG",
+  "office_head": "EROE",
+  "office_branch": "EROE",
+  "office_trsg": "E06107",
+  "office_trsg_branch": "E061",
+  "office_trsg_head": "E06",
+  "office_name": "กฟย.เมืองสรวง",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0e5"
+  },
+  "office": "ETTN",
+  "office_head": "EROE",
+  "office_branch": "EROE",
+  "office_trsg": "E06108",
+  "office_trsg_branch": "E061",
+  "office_trsg_head": "E06",
+  "office_name": "กฟย.ธงธานี",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0e6"
+  },
+  "office": "ECKN",
+  "office_head": "EROE",
+  "office_branch": "EROE",
+  "office_trsg": "E06110",
+  "office_trsg_branch": "E061",
+  "office_trsg_head": "E06",
+  "office_name": "กฟย.เชียงขวัญ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0e7"
+  },
+  "office": "ESWP",
+  "office_head": "EROE",
+  "office_branch": "ESWP",
+  "office_trsg": "E06201",
+  "office_trsg_branch": "E062",
+  "office_trsg_head": "E06",
+  "office_name": "กฟส.สุวรรณภูมิ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0e8"
+  },
+  "office": "EPNS",
+  "office_head": "EROE",
+  "office_branch": "ESWP",
+  "office_trsg": "E06205",
+  "office_trsg_branch": "E062",
+  "office_trsg_head": "E06",
+  "office_name": "กฟย.โพนทราย",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0e9"
+  },
+  "office": "EKWS",
+  "office_head": "EROE",
+  "office_branch": "EKWS",
+  "office_trsg": "E06301",
+  "office_trsg_branch": "E063",
+  "office_trsg_head": "E06",
+  "office_name": "กฟส.เกษตรวิสัย",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0ea"
+  },
+  "office": "EPTR",
+  "office_head": "EROE",
+  "office_branch": "EKWS",
+  "office_trsg": "E06302",
+  "office_trsg_branch": "E063",
+  "office_trsg_head": "E06",
+  "office_name": "กฟย.ปทุมรัตน์",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0eb"
+  },
+  "office": "EASM",
+  "office_head": "EROE",
+  "office_branch": "EASM",
+  "office_trsg": "E06401",
+  "office_trsg_branch": "E064",
+  "office_trsg_head": "E06",
+  "office_name": "กฟส.อาจสามารถ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0ec"
+  },
+  "office": "EMDH",
+  "office_head": "EMDH",
+  "office_branch": "EMDH",
+  "office_trsg": "E07101",
+  "office_trsg_branch": "E071",
+  "office_trsg_head": "E07",
+  "office_name": "กฟจ.มุกดาหาร",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0ed"
+  },
+  "office": "EDTN",
+  "office_head": "EMDH",
+  "office_branch": "EMDH",
+  "office_trsg": "E07102",
+  "office_trsg_branch": "E071",
+  "office_trsg_head": "E07",
+  "office_name": "กฟย.ดอนตาล",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0ee"
+  },
+  "office": "ENKM",
+  "office_head": "EMDH",
+  "office_branch": "EMDH",
+  "office_trsg": "E07103",
+  "office_trsg_branch": "E071",
+  "office_trsg_head": "E07",
+  "office_name": "กฟย.นิคมคำสร้อย",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0ef"
+  },
+  "office": "EWNY",
+  "office_head": "EMDH",
+  "office_branch": "EMDH",
+  "office_trsg": "E07108",
+  "office_trsg_branch": "E071",
+  "office_trsg_head": "E07",
+  "office_name": "กฟย.หว้านใหญ่",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0f0"
+  },
+  "office": "EKCE",
+  "office_head": "EMDH",
+  "office_branch": "EKCE",
+  "office_trsg": "E07201",
+  "office_trsg_branch": "E072",
+  "office_trsg_head": "E07",
+  "office_name": "กฟส.คำชะอี",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0f1"
+  },
+  "office": "ENSG",
+  "office_head": "EMDH",
+  "office_branch": "EKCE",
+  "office_trsg": "E07202",
+  "office_trsg_branch": "E072",
+  "office_trsg_head": "E07",
+  "office_name": "กฟย.หนองสูง",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0f2"
+  },
+  "office": "EDLG",
+  "office_head": "EMDH",
+  "office_branch": "EKCE",
+  "office_trsg": "E07203",
+  "office_trsg_branch": "E072",
+  "office_trsg_head": "E07",
+  "office_name": "กฟย.ดงหลวง",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0f3"
+  },
+  "office": "EKKT",
+  "office_head": "EMDH",
+  "office_branch": "EKCE",
+  "office_trsg": "E07204",
+  "office_trsg_branch": "E072",
+  "office_trsg_head": "E07",
+  "office_name": "กฟย.ต.กกตูม",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0f4"
+  },
+  "office": "EANC",
+  "office_head": "EANC",
+  "office_branch": "EANC",
+  "office_trsg": "E08101",
+  "office_trsg_branch": "E081",
+  "office_trsg_head": "E08",
+  "office_name": "กฟจ.อำนาจเจริญ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0f5"
+  },
+  "office": "EHTP",
+  "office_head": "EANC",
+  "office_branch": "EANC",
+  "office_trsg": "E08107",
+  "office_trsg_branch": "E081",
+  "office_trsg_head": "E08",
+  "office_name": "กฟย.หัวตะพาน",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0f6"
+  },
+  "office": "ELAN",
+  "office_head": "EANC",
+  "office_branch": "EANC",
+  "office_trsg": "E08108",
+  "office_trsg_branch": "E081",
+  "office_trsg_head": "E08",
+  "office_name": "กฟย.ลืออำนาจ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0f7"
+  },
+  "office": "ESNK",
+  "office_head": "EANC",
+  "office_branch": "EANC",
+  "office_trsg": "E08109",
+  "office_trsg_branch": "E081",
+  "office_trsg_head": "E08",
+  "office_name": "กฟย.เสนางคนิคม",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0e1"
+  },
+  "office": "ECPP",
+  "office_head": "EROE",
+  "office_branch": "EROE",
+  "office_trsg": "E06102",
+  "office_trsg_branch": "E061",
+  "office_trsg_head": "E06",
+  "office_name": "กฟย.จตุรพักตร์พิมาน",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0e2"
+  },
+  "office": "ESSD",
+  "office_head": "EROE",
+  "office_branch": "EROE",
+  "office_trsg": "E06104",
+  "office_trsg_branch": "E061",
+  "office_trsg_head": "E06",
+  "office_name": "กฟย.ศรีสมเด็จ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0fa"
+  },
+  "office": "ECNM",
+  "office_head": "EANC",
+  "office_branch": "EANC",
+  "office_trsg": "E08113",
+  "office_trsg_branch": "E081",
+  "office_trsg_head": "E08",
+  "office_name": "กฟย.ชานุมาน",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0fb"
+  },
+  "office": "ELNT",
+  "office_head": "EANC",
+  "office_branch": "ELNT",
+  "office_trsg": "E08301",
+  "office_trsg_branch": "E083",
+  "office_trsg_head": "E08",
+  "office_name": "กฟส.เลิงนกทา",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0fc"
+  },
+  "office": "ESLP",
+  "office_head": "ESLP",
+  "office_branch": "ESLP",
+  "office_trsg": "E09101",
+  "office_trsg_branch": "E091",
+  "office_trsg_head": "E09",
+  "office_name": "กฟอ.เสลภูมิ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0fd"
+  },
+  "office": "ETKH",
+  "office_head": "ESLP",
+  "office_branch": "ESLP",
+  "office_trsg": "E09102",
+  "office_trsg_branch": "E091",
+  "office_trsg_head": "E09",
+  "office_name": "กฟย.ทุ่งเขาหลวง",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0fe"
+  },
+  "office": "EPTH",
+  "office_head": "ESLP",
+  "office_branch": "EPTH",
+  "office_trsg": "E09201",
+  "office_trsg_branch": "E092",
+  "office_trsg_head": "E09",
+  "office_name": "กฟส.โพนทอง",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0ff"
+  },
+  "office": "EPCI",
+  "office_head": "ESLP",
+  "office_branch": "EPTH",
+  "office_trsg": "E09203",
+  "office_trsg_branch": "E092",
+  "office_trsg_head": "E09",
+  "office_name": "กฟย.โพธิ์ชัย",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a100"
+  },
+  "office": "ENPK",
+  "office_head": "ESLP",
+  "office_branch": "EPTH",
+  "office_trsg": "E09204",
+  "office_trsg_branch": "E092",
+  "office_trsg_head": "E09",
+  "office_name": "กฟย.หนองพอก",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a101"
+  },
+  "office": "EMWD",
+  "office_head": "ESLP",
+  "office_branch": "EPTH",
+  "office_trsg": "E09205",
+  "office_trsg_branch": "E092",
+  "office_trsg_head": "E09",
+  "office_name": "กฟย.เมยวดี",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a102"
+  },
+  "office": "ESDJ",
+  "office_head": "ESDJ",
+  "office_branch": "ESDJ",
+  "office_trsg": "E10101",
+  "office_trsg_branch": "E101",
+  "office_trsg_head": "E10",
+  "office_name": "กฟอ.สมเด็จ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a103"
+  },
+  "office": "ESCI",
+  "office_head": "ESDJ",
+  "office_branch": "ESDJ",
+  "office_trsg": "E10103",
+  "office_trsg_branch": "E101",
+  "office_trsg_head": "E10",
+  "office_name": "กฟย.สามชัย",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a104"
+  },
+  "office": "EKMG",
+  "office_head": "ESDJ",
+  "office_branch": "ESDJ",
+  "office_trsg": "E10104",
+  "office_trsg_branch": "E101",
+  "office_trsg_head": "E10",
+  "office_name": "กฟย.คำม่วง",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a105"
+  },
+  "office": "ENKU",
+  "office_head": "ESDJ",
+  "office_branch": "ESDJ",
+  "office_trsg": "E10105",
+  "office_trsg_branch": "E101",
+  "office_trsg_head": "E10",
+  "office_name": "กฟย.นาคู",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a106"
+  },
+  "office": "EHPG",
+  "office_head": "ESDJ",
+  "office_branch": "ESDJ",
+  "office_trsg": "E10106",
+  "office_trsg_branch": "E101",
+  "office_trsg_head": "E10",
+  "office_name": "กฟย.ห้วยผึ้ง",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a107"
+  },
+  "office": "ENMN",
+  "office_head": "ESDJ",
+  "office_branch": "ESDJ",
+  "office_trsg": "E10110",
+  "office_trsg_branch": "E101",
+  "office_trsg_head": "E10",
+  "office_name": "กฟย.นามน",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a108"
+  },
+  "office": "EKCN",
+  "office_head": "ESDJ",
+  "office_branch": "EKCN",
+  "office_trsg": "E10201",
+  "office_trsg_branch": "E102",
+  "office_trsg_head": "E10",
+  "office_name": "กฟส.กุฉินารายณ์",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a109"
+  },
+  "office": "EKHW",
+  "office_head": "ESDJ",
+  "office_branch": "EKCN",
+  "office_trsg": "E10204",
+  "office_trsg_branch": "E102",
+  "office_trsg_head": "E10",
+  "office_name": "กฟย.เขาวง",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a10a"
+  },
+  "office": "EKTL",
+  "office_head": "EKTL",
+  "office_branch": "EKTL",
+  "office_trsg": "E11101",
+  "office_trsg_branch": "E111",
+  "office_trsg_head": "E11",
+  "office_name": "กฟอ.กันทรลักษ์",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a10b"
+  },
+  "office": "ESRN",
+  "office_head": "EKTL",
+  "office_branch": "EKTL",
+  "office_trsg": "E11103",
+  "office_trsg_branch": "E111",
+  "office_trsg_head": "E11",
+  "office_name": "กฟย.ศรีรัตนะ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a10c"
+  },
+  "office": "ENKN",
+  "office_head": "EKTL",
+  "office_branch": "EKTL",
+  "office_trsg": "E11104",
+  "office_trsg_branch": "E111",
+  "office_trsg_head": "E11",
+  "office_name": "กฟย.โนนคูณ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a10d"
+  },
+  "office": "EKHN",
+  "office_head": "EKTL",
+  "office_branch": "EKHN",
+  "office_trsg": "E11201",
+  "office_trsg_branch": "E112",
+  "office_trsg_head": "E11",
+  "office_name": "กฟส.ขุนหาญ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a10e"
+  },
+  "office": "EPBG",
+  "office_head": "EKTL",
+  "office_branch": "EKHN",
+  "office_trsg": "E11202",
+  "office_trsg_branch": "E112",
+  "office_trsg_head": "E11",
+  "office_name": "กฟย.ไพรบึง",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a10f"
+  },
+  "office": "EDUD",
+  "office_head": "EDUD",
+  "office_branch": "EDUD",
+  "office_trsg": "E12101",
+  "office_trsg_branch": "E121",
+  "office_trsg_head": "E12",
+  "office_name": "กฟอ.เดชอุดม",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a110"
+  },
+  "office": "ETSU",
+  "office_head": "EDUD",
+  "office_branch": "EDUD",
+  "office_trsg": "E12108",
+  "office_trsg_branch": "E121",
+  "office_trsg_head": "E12",
+  "office_name": "กฟย.ทุ่งศรีอุดม",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a111"
+  },
+  "office": "ENYA",
+  "office_head": "EDUD",
+  "office_branch": "EDUD",
+  "office_trsg": "E12109",
+  "office_trsg_branch": "E121",
+  "office_trsg_head": "E12",
+  "office_name": "กฟย.นาเยีย",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0f8"
+  },
+  "office": "EPRW",
+  "office_head": "EANC",
+  "office_branch": "EANC",
+  "office_trsg": "E08111",
+  "office_trsg_branch": "E081",
+  "office_trsg_head": "E08",
+  "office_name": "กฟย.ปทุมราชวงศา",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a0f9"
+  },
+  "office": "EPNA",
+  "office_head": "EANC",
+  "office_branch": "EANC",
+  "office_trsg": "E08112",
+  "office_trsg_branch": "E081",
+  "office_trsg_head": "E08",
+  "office_name": "กฟย.พนา",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a114"
+  },
+  "office": "ENMK",
+  "office_head": "EDUD",
+  "office_branch": "ENYN",
+  "office_trsg": "E12203",
+  "office_trsg_branch": "E122",
+  "office_trsg_head": "E12",
+  "office_name": "กฟย.น้ำขุ่น",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a115"
+  },
+  "office": "EBTR",
+  "office_head": "EDUD",
+  "office_branch": "EBTR",
+  "office_trsg": "E12301",
+  "office_trsg_branch": "E123",
+  "office_trsg_head": "E12",
+  "office_name": "กฟส.บุณฑริก",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a116"
+  },
+  "office": "EWCH",
+  "office_head": "EWCH",
+  "office_branch": "EWCH",
+  "office_trsg": "E13101",
+  "office_trsg_branch": "E131",
+  "office_trsg_head": "E13",
+  "office_name": "กฟอ.วารินชำราบ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a117"
+  },
+  "office": "ESMR",
+  "office_head": "EWCH",
+  "office_branch": "EWCH",
+  "office_trsg": "E13102",
+  "office_trsg_branch": "E131",
+  "office_trsg_head": "E13",
+  "office_name": "กฟย.สำโรง",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a118"
+  },
+  "office": "EHKY",
+  "office_head": "EWCH",
+  "office_branch": "EWCH",
+  "office_trsg": "E13103",
+  "office_trsg_branch": "E131",
+  "office_trsg_head": "E13",
+  "office_name": "กฟย.ห้วยขะยุง",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a119"
+  },
+  "office": "ESWR",
+  "office_head": "EWCH",
+  "office_branch": "EWCH",
+  "office_trsg": "E13104",
+  "office_trsg_branch": "E131",
+  "office_trsg_head": "E13",
+  "office_name": "กฟย.สว่างวีระวงศ์",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a11a"
+  },
+  "office": "EPBM",
+  "office_head": "EWCH",
+  "office_branch": "EPBM",
+  "office_trsg": "E13201",
+  "office_trsg_branch": "E132",
+  "office_trsg_head": "E13",
+  "office_name": "กฟส.พิบูลมังสาหาร",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a11b"
+  },
+  "office": "EKHC",
+  "office_head": "EWCH",
+  "office_branch": "EPBM",
+  "office_trsg": "E13202",
+  "office_trsg_branch": "E132",
+  "office_trsg_head": "E13",
+  "office_name": "กฟย.โขงเจียม",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a11c"
+  },
+  "office": "ESRT",
+  "office_head": "EWCH",
+  "office_branch": "EPBM",
+  "office_trsg": "E13203",
+  "office_trsg_branch": "E132",
+  "office_trsg_head": "E13",
+  "office_name": "กฟย.สิรินธร",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a11d"
+  },
+  "office": "ETPL",
+  "office_head": "ETPL",
+  "office_branch": "ETPL",
+  "office_trsg": "E14101",
+  "office_trsg_branch": "E141",
+  "office_trsg_head": "E14",
+  "office_name": "กฟอ.ตระการพืชผล",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a11e"
+  },
+  "office": "ESMM",
+  "office_head": "ETPL",
+  "office_branch": "ETPL",
+  "office_trsg": "E14102",
+  "office_trsg_branch": "E141",
+  "office_trsg_head": "E14",
+  "office_name": "กฟย.ศรีเมืองใหม่",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a11f"
+  },
+  "office": "EPSI",
+  "office_head": "ETPL",
+  "office_branch": "ETPL",
+  "office_trsg": "E14103",
+  "office_trsg_branch": "E141",
+  "office_trsg_head": "E14",
+  "office_name": "กฟย.โพธิ์ไทร",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a120"
+  },
+  "office": "EKKP",
+  "office_head": "ETPL",
+  "office_branch": "ETPL",
+  "office_trsg": "E14104",
+  "office_trsg_branch": "E141",
+  "office_trsg_head": "E14",
+  "office_name": "กฟย.กุดข้าวปุ้น",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a121"
+  },
+  "office": "EKML",
+  "office_head": "ETPL",
+  "office_branch": "EKML",
+  "office_trsg": "E14201",
+  "office_trsg_branch": "E142",
+  "office_trsg_head": "E14",
+  "office_name": "กฟส.เขมราฐ",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a122"
+  },
+  "office": "E000",
+  "office_head": "E000",
+  "office_branch": "E000",
+  "office_trsg": "E00000",
+  "office_trsg_branch": "E000",
+  "office_trsg_head": "E000",
+  "office_name": "กฟฉ.2",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a123"
+  },
+  "office": "E001",
+  "office_head": "E001",
+  "office_branch": "E001",
+  "office_trsg": "E00100",
+  "office_trsg_branch": "E001",
+  "office_trsg_head": "E001",
+  "office_name": "กวว.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a124"
+  },
+  "office": "E002",
+  "office_head": "E002",
+  "office_branch": "E002",
+  "office_trsg": "E00200",
+  "office_trsg_branch": "E002",
+  "office_trsg_head": "E002",
+  "office_name": "กซข.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a112"
+  },
+  "office": "ENYN",
+  "office_head": "EDUD",
+  "office_branch": "ENYN",
+  "office_trsg": "E12201",
+  "office_trsg_branch": "E122",
+  "office_trsg_head": "E12",
+  "office_name": "กฟส.น้ำยืน",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "642aa5b7fe0a6c09afc6a113"
+  },
+  "office": "ENCL",
+  "office_head": "EDUD",
+  "office_branch": "ENYN",
+  "office_trsg": "E12202",
+  "office_trsg_branch": "E122",
+  "office_trsg_head": "E12",
+  "office_name": "กฟย.นาจะหลวย",
+  "__v": 0
+}]
